@@ -24,7 +24,7 @@ create table persistent_logins (
 인증 TOKEN 데이터가 덮어씌워지거나, 삭제되어서  
 기존의 기기는 Remember Me 가 무력화 되었다.  
 
-## 기존 스프링 시큐리티에 있는 Remember Me 의 문제점
+## 직접 
 Remember me 의 동작원리를 참고하여 직접 구현하여 보았다. (참고링크 2 참고)  
 
 ### RememberMe 객체 만들기
